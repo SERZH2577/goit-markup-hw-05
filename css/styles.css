@@ -48,7 +48,7 @@ img {
 }
 
 .animation {
-	transition-duration: 2250ms;
+	transition-duration: 250ms;
 	transition-timing-function: var(--main-timing);
 }
 
@@ -690,7 +690,7 @@ margin-bottom: 9px;
 }
 
 .portfolio-list-link:hover .portfolio-list-img::before, 
-.portfolio-list-link:hover .portfolio-list-img::before {
+.portfolio-list-link:focus .portfolio-list-img::before {
 	transform: translateY(0);
 	transition-duration: transform;
 	transition-duration: 250ms;
